@@ -3,10 +3,10 @@ echo "Setting env variables.."
 export TURTLEBOT_SENSOR=rplidar_a2
 export TURTLEBOT_BASE=kobuki
 export TURTLEBOT_STACKS=hexagons
-export TURTLEBOT_SERIAL_PORT=/dev/ttyUSB1
+export TURTLEBOT_SERIAL_PORT=/dev/kobuki
 export TURTLEBOT_BATTERY=/proc/acpi/battery/BAT0
 export TURTLEBOT_SIMULATION=false
-export TURTLEBOT_MAP_FILE=/map/0002.yaml
+export TURTLEBOT_MAP_FILE=/home/jonathan/.ros/map.yaml
 
 echo "TURTLEBOT_SENSOR: $TURTLEBOT_SENSOR"
 echo "TURTLEBOT_BASE: $TURTLEBOT_BASE"
